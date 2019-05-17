@@ -10,6 +10,7 @@ from sklearn import svm
 from sklearn.multiclass import OneVsRestClassifier
 import loadData
 
+
 image_train, label_train = loadData.readfile()
 image_test,label_test = loadData.read_test_file()
 # 从训练集选1000个样本
